@@ -43,15 +43,11 @@ const Product = ({ pizza }) => {
     }
   };
 
-  // const handleChangeQuantity = (e) => {
-  //   setQuantity(e.target.value)
-  // }
-
+ 
   useEffect(() => {
     setTotalPrice(basePrice + extrasCost);
   }, [basePrice, extrasCost]);
 
-  // console.log(size);
 
   return (
     <div className={styles.container}>
@@ -143,7 +139,7 @@ const Product = ({ pizza }) => {
             </Link>
             
               
-          {/* </div> */}
+          
           </div>
           
         </div>

@@ -5,9 +5,7 @@ const HamburgerMenu = () => {
   return (
     <div className={styles.hamMenuItem_list}>
       <ul className={styles.hamMenu}>
-        {/* <Link href="/" passHref>
-          <li className={styles.hamMenuItem}>HomePage</li>
-        </Link> */}
+       
         <Link href="/#pizza-list" passHref>
           <li className={styles.hamMenuItem}>Menu</li>
         </Link>

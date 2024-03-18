@@ -32,14 +32,12 @@ const Featured = () => {
           src="/images/arrowl.png"
           layout="fill"
           objectFit="contain"
-          // width={100}
-          // height={100}
+         
           alt="left-arrow"
         />
       </div>
 
-      {/* when left or right arrow is clicked (which sets the index to a new value) this transform 
-    style will move left or right 100vw each click to display a different picture */}
+   
       <div
         className={styles.wrapper}
         style={{ transform: `translateX(${-100 * index}vw)` }}
@@ -48,9 +46,7 @@ const Featured = () => {
           <div className={styles.imgContainer} key={i}>
             <Image
               src={image}
-              // priority='true'
-              // width={550}
-              // height={550}
+              
               layout="fill"
               objectFit="contain"
               alt="featured-item"
@@ -67,8 +63,7 @@ const Featured = () => {
           src="/images/arrowr.png"
           layout="fill"
           objectFit="contain"
-          // width={100}
-          // height={100}
+        
           alt="right-arrow"
         />
       </div>

@@ -11,7 +11,7 @@ export default function Home({ pizzaList }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>SNACKS PIZZA - Order Online</title>
+        <title>PIZZAWALA</title>
         <meta
           name="description"
           content="Customize and order your favorite snacks!"
