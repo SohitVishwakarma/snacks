@@ -14,9 +14,10 @@ const Footer = () => {
                       {`BEST PIZZA IN TOWN?`} <br/>
                       {`IT'S SNACKS.`} <br/>
                       {`JUST THE FACTS!`}
+                      {`WE ALL KNOW THAT THIS IS THE BEST`}
                   </h2>
               </div>
-             {/*  <div className={styles.card}>
+              <div className={styles.card}>
                   <h1 className={styles.title} id='footer-heading'>FIND OUR RESTAURANTS</h1>
                   <p className={styles.text}>
                       17542 Main St. 
@@ -46,7 +47,7 @@ const Footer = () => {
                       <br />11:00AM - 10:00PM
                       
                   </p>
-              </div> */}
+              </div>
             </div>
         </div>
     )
